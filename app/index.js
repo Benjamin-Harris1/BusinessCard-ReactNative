@@ -6,6 +6,7 @@ import { FontAwesome } from "@expo/vector-icons";
 
 export default function BusinessCard() {
   return (
+    // All styling is made with Tailwind CSS, where I just have to add "classeName" followed by the desired styling.
     <View className="flex-1 items-center justify-evenly bg-gray-100 p-4">
       <View className="bg-white p-6 rounded-xl shadow-lg w-full max-w-md">
         <Image
@@ -16,6 +17,7 @@ export default function BusinessCard() {
         <Text className="text-2xl font-bold mb-2">NVIDIA</Text>
         <Text className="text-gray-600 mb-4">Accelerating the Future of Computing</Text>
         <View className="flex-row items-center mb-2">
+        {/* This is an example of the vector icons, that I imported from FontAwesome. */}
           <FontAwesome name="map-marker" size={16} color="gray" />
           <Text className="text-xs ml-2">2788 San Tomas Expy, Santa Clara, CA 95051, USA</Text>
         </View>
