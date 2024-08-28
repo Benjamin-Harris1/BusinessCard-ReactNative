@@ -1,6 +1,7 @@
 import React from "react";
 import { View, Text, Image, TouchableOpacity } from "react-native";
 import { Link } from "expo-router";
+// FontAwesome is imported to use vector icons in the app.
 import { FontAwesome } from "@expo/vector-icons";
 
 export default function BusinessCard() {
